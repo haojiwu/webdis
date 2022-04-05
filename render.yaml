@@ -4,7 +4,7 @@ services:
     name: webdis
     env: docker
     plan: standard # optional (defaults to starter)
-    dockerCommand: ./webdis/webdis-wrapper.sh
+    dockerCommand: ./webdis-wrapper.sh
     envVars:
       - key: REDIS_HOST
         sync: false
